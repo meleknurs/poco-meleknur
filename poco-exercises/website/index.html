@@ -1,37 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Powercoders</title>
-</head>
-<body>
-    <nav><h2 class="visuallyhidden"></h2>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About Us</a></li>
-            <li><a href="/">Contact</a></li>
-        </ul>
+  </head>
+  <body>
+    <nav>
+      <h2 class="visuallyhidden"></h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About Us</a></li>
+        <li><a href="/">Contact</a></li>
+      </ul>
     </nav>
 
+    <main>
+      <header>
+        <h1>Practice makes perfect</h1>
+      </header>
+      <section>
+        <h2>Why Practice is good for us?</h2>
+        <p>
+          Practice is essential when it comes to learning for several compelling
+          reasons. Firstly, practice helps to reinforce and solidify newly
+          acquired knowledge or skills. When we practice, we repeatedly engage
+          with the material or task, which strengthens the neural pathways in
+          our brain associated with that particular knowledge or skill. This
+          process of <em>repetition and reinforcement</em> is crucial for
+          long-term retention and mastery. Without practice, information tends
+          to fade from memory quickly, and skills remain undeveloped.
+        </p>
+        <p>
+          Secondly, practice allows us to refine and improve our performance
+          over time. Whether it's learning a musical instrument, a new language,
+          or a complex mathematical concept, initial attempts are often marked
+          by mistakes and suboptimal performance. Through practice, we identify
+          these errors, make necessary adjustments, and gradually enhance our
+          competence. Practice not only <stong>builds confidence</stong> but
+          also helps us develop a deeper understanding of the subject matter or
+          task at hand. In essence, practice is the bridge between knowledge
+          acquisition and mastery, making it an indispensable component of the
+          learning process.
+        </p>
+        <img src="/website/assets/img/coding-hands.webp" alt="coding-hands" />
+      </section>
+      <form>
+        <h2>Contact Us</h2>
+        <fieldset>
+          <legend>Your Information</legend>
+          <div>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required />
+          </div>
+        </fieldset>
 
-<main>
-  <header>
-    <h1>Practice makes perfect</h1>
-</header>  
-  <section><p>
-    
-Practice is essential when it comes to learning for several compelling reasons. Firstly, practice helps to reinforce and solidify newly acquired knowledge or skills. When we practice, we repeatedly engage with the material or task, which strengthens the neural pathways in our brain associated with that particular knowledge or skill. This process of <em>repetition and reinforcement</em> is crucial for long-term retention and mastery. Without practice, information tends to fade from memory quickly, and skills remain undeveloped.
-  </p>
-<p>
-    Secondly, practice allows us to refine and improve our performance over time. Whether it's learning a musical instrument, a new language, or a complex mathematical concept, initial attempts are often marked by mistakes and suboptimal performance. Through practice, we identify these errors, make necessary adjustments, and gradually enhance our competence. Practice not only <stong>builds confidence</stong> but also helps us develop a deeper understanding of the subject matter or task at hand. In essence, practice is the bridge between knowledge acquisition and mastery, making it an indispensable component of the learning process.
-</p>
-</section>
-  <section></section>
-  <section>Stories</section>
-</main>
+        <fieldset>
+          <legend>Choose Your Operating System</legend>
+          <div>
+            <input type="radio" id="Windows" name="OS" value="Windows" />
+            <label for="Windows">Windows</label>
+          </div>
+          <div>
+            <input type="radio" id="MacOS" name="OS" value="MacOS" />
+            <label for="MacOS">MacOS</label>
+          </div>
+          <div>
+            <input type="radio" id="Linux" name="OS" value="Linux" />
+            <label for="Linux">Linux</label>
+          </div>
+        </fieldset>
 
-<footer><h2>Support</h2></footer>
+        <button type="submir">Submit</button>
+      </form>
 
-</body>
+      <section></section>
+    </main>
+
+    <footer><h2>Support</h2></footer>
+  </body>
 </html>
