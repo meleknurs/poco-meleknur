@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+</head>
+<body>
+    <nav></nav>
+    <h2>Checkout form</h2>
+    
+    <div class="order-summary">
+        <h3>Your order</h3>
+        <table>
+           <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Total</th>
+           </tr>
+           <tr>
+            <td>Bottle</td>
+            <td>1</td>
+            <td>CHF 45.00</td>
+           </tr>
+           <tr>
+            <td>Total</td>
+            <td></td>
+            <td>CHF 45.00</td>
+           </tr>
+        </table>
+    </div>
+
+    <div>
+        <h3>Billing address</h3>
+         <form action="" method="post">
+        <fieldset class="contact-details">
+            <legend>Contact details</legend>
+            <label for="fname">First name *</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name *</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">E-Mail address *</label>
+            <input type="email" id="email" name="email"><br>
+        </fieldset>
+
+        <fieldset class="address-details">
+            <legend>Address details</legend>
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company"><br>
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address"><br>
+            <label for="zipcode">Zip code</label>
+            <input type="number" id="zipcode" name="zipcode"><br>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city"><br>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone"><br>
+            <label for="send-to">Send to this address</label>
+            <input type="checkbox" id="send-to" name="send-to">
+        </fieldset>
+
+        <fieldset class="shipping-address">
+            <legend>Shipping address</legend>
+            <label for="fname-sh">First name </label>
+            <input type="text" id="fname-sh" name="fname-sh"><br>
+            <label for="lname-sh">Last name </label>
+            <input type="text" id="lname-sh" name="lname-sh"><br>
+            <label for="company-sh">Company</label>
+            <input type="text" id="company-sh" name="company-sh"><br>
+            <label for="address-sh">Address</label>
+            <input type="text" id="address-sh" name="address-sh"><br>
+            <label for="zipcode-sh">Zip code</label>
+            <input type="number" id="zipcode-sh" name="zipcode-sh"><br>
+            <label for="city-sh">City</label>
+            <input type="text" id="city-sh" name="city-sh"><br>
+        </fieldset>
+
+        <fieldset class="delivery-method">
+            <legend>Delivery method *</legend>
+            <input type="radio" id="pickup" name="pickup">
+            <label for="pickup">Pick Up (CHF 0.00)</label><br>
+            <input type="radio" id="post" name="post">
+            <label for="post">Post (CHF 7.00)</label>
+        </fieldset>
+
+        <fieldset class="payment-method">
+            <legend>Payment method *</legend>
+            <input type="radio" name="twint" id="twint">
+            <label for="twint">Twint</label><br>
+            <input type="radio" name="invoice" id="invoice">
+            <label for="invoice">Invoice</label> <br>
+            <label for="comment">Comment </label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </fieldset>
+            <input type="button" name="submit" id="submit" value="Submit"><br>
+    </form>
+    </div>
+   <footer></footer>
+</body>
+</html>
