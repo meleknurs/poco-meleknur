@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Exercises</title>
+    
+
 </head>
 <body>
+    <div>
+        <form style="width: 50%;">
+        <fieldset id="user-information" >
+            <legend>User Information</legend>
+            <label for="username">Username: </label>
+            <input type="text" id="username" name="username" required>
+            </fieldset>
+           
+           <fieldset>
+            <legend>Write Something</legend>
+            <label for="textarea">Here: </label>
+            <input type="textarea" id="textarea" name="textarea">
+           </fieldset> 
+
+           <fieldset>
+            <legend>Select</legend>
+            <label for="select">Choose: </label>
+            <select id="select" name="select">
+                <option value="Totoro">Totoro</option>
+                <option value="Kiki">Kiki</option>
+                <option value="Howl">Howl</option>
+            </select>
+
+           </fieldset>
+    </form>
+</div>
     
     
 </body>
