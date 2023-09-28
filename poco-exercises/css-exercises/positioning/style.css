@@ -1,0 +1,17 @@
+.parent{
+background-color: blue;
+}
+
+
+.child-one {
+background-color: green;
+}
+
+.child-two {
+    background-color: palevioletred;
+}
+
+.child-three {
+    background-color: rgb(211, 16, 58);
+}
+
