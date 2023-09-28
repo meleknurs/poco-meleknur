@@ -1,0 +1,11 @@
+.container {
+    background-color: rgb(230, 22, 84);
+    border: 5px solid black;
+}
+
+.item {
+    background-color: rgb(177, 86, 101);
+    padding: 5px;
+    margin: 10px;
+    color: white;
+}
