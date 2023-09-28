@@ -1,0 +1,35 @@
+.flexbox-container {
+display: flex;
+background-color: blueviolet;
+justify-content: center;
+align-items: center;
+}
+
+.flexbox-item {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    margin: 10px;
+    width: 200px;
+
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    flex-shrink: 0;
+    order: 3;
+
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+    flex-grow: 2;
+    align-self: center;
+    order: 2;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+    flex-grow: 1;
+    order: 1;
+ 
+}
