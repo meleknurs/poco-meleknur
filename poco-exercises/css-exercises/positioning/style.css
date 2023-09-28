@@ -1,17 +1,34 @@
-.parent{
-background-color: blue;
+.*{
+  margin: 10px;  
 }
 
 
+.parent{
+background-color: blue;
+position: relative;
+height: 300px;
+
+}
+
+.child-one, .child-two, .child-three {
+padding: 5px;
+margin: 0 10px;
+}
+
 .child-one {
 background-color: green;
+position: sticky;
+top: 0;
 }
 
 .child-two {
     background-color: palevioletred;
+    
 }
 
 .child-three {
     background-color: rgb(211, 16, 58);
+    
+   
 }
 
