@@ -1,0 +1,32 @@
+* {
+    text-align: center;
+    height: 200px;
+    font-size: 1.5rem;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+
+}
+
+header {
+    background-color: aqua;
+}
+
+.feature-1 {
+    background-color: yellow;
+}
+.feature-2 {
+    background-color: rgb(183, 8, 121);
+}
+.feature-3 {
+    background-color: rgb(213, 9, 23);
+}
+
+.signup {
+    background-color: rgb(132, 135, 230);
+}
+
