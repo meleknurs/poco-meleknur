@@ -4,58 +4,29 @@ html {
 
 *, *::before, *::after {
     box-sizing: inherit;
-    
 }
-
 
 body {
-    font-family: 'Merrieweather', 'Pixelify Sans', cursive, sans-serif;
-    background-color: #43507c;
+    background-color: white;
     margin: 0;
     padding: 0;
-    
+    text-align: center;
+    font-family: 'Merrieweather', 'Pixelify Sans', cursive, sans-serif;
+    color: #40514E;
 }
 
-h1 {
-font-family: 'Pixelify Sans';
-}
-
-.wrapper {
-	width: 80%;
-	margin: 0 auto;
-	padding: 1em;
-	display: flex;
-    flex-direction: column;
-	background-color: #888ea3;
-}
-
-
-
-
-ul {
-    
-    list-style: none;
-    padding: 0;
-   
-}
-
-ul li {
-    margin-bottom: 20px;
-    font-family: "Montserrat", sans-serif;   
-    
-}
-
-
-footer {
-   
-    align-items: center;
-    display: flex;
-    flex-direction:row;
-    background-image: url('/images/ground-contact.png');
-    background-position: center;
+/* Background with clouds (you can replace the URL with your cloud image) */
+body {
+    background: url('clouds-image.jpg');
     background-size: cover;
-    justify-content: center;
-    height: 200px; 
-    padding: 25px;
-
+    background-repeat: no-repeat;
 }
+
+/* The rest of your styles for the contact page content */
+/* Add a class to style your contact page content */
+.contact-container {
+    /* Add your styles for the contact page here */
+}
+
+/* Update any specific styles for the header, h1, and other elements as needed for the contact page */
+
