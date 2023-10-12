@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    
+}
+
+
+body {
+    font-family: 'Merrieweather', 'Pixelify Sans', cursive, sans-serif;
+    background-color: #43507c;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+font-family: 'Pixelify Sans';
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+    flex-direction: column;
+	background-color: #888ea3;
+}
+
+
+
+
+ul {
+    
+    list-style: none;
+    padding: 0;
+   
+}
+
+ul li {
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;   
+    
+}
+
+
+footer {
+   
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    background-image: url('/images/ground-contact.png');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    height: 200px; 
+    padding: 25px;
+
+}
