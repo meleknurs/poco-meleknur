@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:auto;
+    gap: 32px;
+    margin: 20px auto;
+   padding: 20px;
+}
+
+
+.individual {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15%;
+   
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    }
+    
+.ind-1 {
+background-color: rgba(255, 255, 0, 0.803);
+}
+
+.ind-2 {
+ background-color: rgba(0, 128, 0, 0.709);
+}
+
+.ind-3 {
+background-color: rgba(0, 0, 255, 0.799);
+}
