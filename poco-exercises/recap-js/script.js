@@ -28,7 +28,7 @@ if(i==0){
 
 const h1=document.querySelector("h1"); //i select the h1 tag element
 h1.textContent = "Title - click me"; //change the title
-h1.addEventListener("click", function(){
+h1.addEventListener("click", function(){ //when user click the title change as: thank you
     h1.textContent="Thank you";
 });
 
