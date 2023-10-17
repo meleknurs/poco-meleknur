@@ -9,24 +9,28 @@
   <body>
     <main>
       <section class="container">
-        <article class="individual ind-1" id="faranak" onmouseover="giveDetails('faranak')">
-          <img src="/images/faranak.jpg" alt="Faranak" class="details-hidden" />
-          <div id="details-container-faranak"></div>
+        <article class="individual ind-1" id="faranak" onmouseover="giveDetails('faranak')" onmouseleave="giveDetails('faranak')">
+          <div class="content-container">
+            <img src="/images/faranak.jpg" alt="Faranak" />
+            <div class="details-container" id="details-container-faranak"></div>
+          </div>
         </article>
     
-        <article class="individual ind-2" id="ali" onmouseover="giveDetails('ali')">
-          <img src="/images/ali.jpg" alt="Ali" />
-          <div id="details-container-ali"></div>
+        <article class="individual ind-2" id="ali" onmouseover="giveDetails('ali')" onmouseleave="giveDetails('ali')">
+          <div class="content-container">
+            <img src="/images/ali.jpg" alt="Ali" />
+            <div class="details-container" id="details-container-ali"></div>
+          </div>
         </article>
     
-        <article class="individual ind-3" id="gebre" onmouseover="giveDetails('gebre')">
-          <img src="/images/gebre.png" alt="Gebre" />
-          <div id="details-container-gebre"></div>
+        <article class="individual ind-3" id="gebre" onmouseover="giveDetails('gebre')" onmouseleave="giveDetails('gebre')">
+          <div class="content-container">
+            <img src="/images/gebre.png" alt="Gebre"/>
+            <div class="details-container" id="details-container-gebre"></div>
+          </div>
         </article>
       </section>
     </main>
-    
-    
     
     
     <script src="scripts.js"></script>
