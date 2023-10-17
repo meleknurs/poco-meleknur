@@ -9,25 +9,27 @@
   <body>
     <main>
       <section class="container">
-        <article class="individual ind-1" id="faranak">
-          <img src="/images/faranak.jpg" alt="Faranak" />
-         
+        <article class="individual ind-1" id="faranak" onmouseover="giveDetails('faranak')">
+          <img src="/images/faranak.jpg" alt="Faranak" class="details-hidden" />
+          <div id="details-container-faranak"></div>
         </article>
-
-        <article class="individual ind-2" id="ali" >
-         
-            <img src="/images/ali.jpg" alt="Ali" />
-          </article>
-
-          <article class="individual ind-3" id="gebre">
-            
-            <img src="/images/gebre.png" alt="Gebre" />
-          </article>
-
+    
+        <article class="individual ind-2" id="ali" onmouseover="giveDetails('ali')">
+          <img src="/images/ali.jpg" alt="Ali" />
+          <div id="details-container-ali"></div>
+        </article>
+    
+        <article class="individual ind-3" id="gebre" onmouseover="giveDetails('gebre')">
+          <img src="/images/gebre.png" alt="Gebre" />
+          <div id="details-container-gebre"></div>
+        </article>
       </section>
-      
     </main>
-
+    
+    
+    
+    
     <script src="scripts.js"></script>
+    
   </body>
 </html>
