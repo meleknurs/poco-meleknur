@@ -56,6 +56,7 @@ function giveDetails(articleId) {
 
 
 
+
 /*
  when I hoverover of an image, id of the element, can match the id of description list, 
 and display whole description of the person
