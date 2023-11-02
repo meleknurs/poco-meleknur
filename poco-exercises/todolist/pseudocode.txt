@@ -1,0 +1,25 @@
+
+
+input: to do (String list)
+output: sorted to-do list by alphabetically or date 
+
+const inputList;
+
+if the inputList.length()==0
+    prompt("Your to do list is empty. Please add one to do: )
+if the inputList.length()>0 
+    show inputList and
+    prompt("This is your to do list, do you want to add one to do?")
+    if(yes){
+        theitem.add(inputList);
+    } no {
+        show the inputList
+    }
+
+
+
+func checkToDo();
+
+func sortAlphabetically();
+
+func sortDate();
