@@ -6,7 +6,24 @@ body {
     padding: 0;
 }
 
+main{
+    
+    margin: 5rem auto;
+    max-width: 112rem;
+    padding: 5rem 2rem;
+    width: 90%;
+}
 
+
+article {
+    margin: 50px 0;
+    border: 1px solid black;
+    border-radius: 15%;
+    height: 350px;
+    text-align: center;
+    background-image: url(images/first-portfoliom.png);
+    background-color: #fff;
+}
 
 h1 {
     color: #2187c7;
@@ -18,6 +35,13 @@ h1 {
 }
 
 .web-development {
+    column-count: 3;
+    margin: 3.3rem 0;
+}
+
+
+/*
+.web-development {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:auto;
@@ -27,20 +51,22 @@ h1 {
 }
 
 
+*/
+
+/*
 .box {
     background-image: url(images/first-portfolio.png);
-    background-position: -1px -1px;
-    background-repeat: no-repeat;
-    background-size: 102% 102%;
-    border-radius: 32px;
-    border: 1px solid black;
-    color: var(--black);
-    height: auto;
-    padding-bottom: 100%;
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
+    background-color: #fff;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+*/
 
 
 
