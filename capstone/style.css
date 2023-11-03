@@ -189,6 +189,14 @@ ul li {
   font-family: "Montserrat", sans-serif;
 }
 
+#hello-text {
+    /*position: absolute; 
+    */
+    top: 20px;
+    right: 60px;
+ 
+}
+
 footer {
   align-items: center;
   display: flex;
