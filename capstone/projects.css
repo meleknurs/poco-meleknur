@@ -12,6 +12,8 @@ main{
     max-width: 112rem;
     padding: 5rem 2rem;
     width: 90%;
+    column-count: 3;
+    margin: 3.3rem 0;
 }
 
 
@@ -19,11 +21,22 @@ article {
     margin: 50px 0;
     border: 1px solid black;
     border-radius: 15%;
-    height: 350px;
+    height: 550px;
     text-align: center;
+    
+    /*
     background-image: url(images/first-portfoliom.png);
     background-color: #fff;
+    */
 }
+
+article img {
+    max-width: 100%; 
+    max-height: 100%; 
+    border-radius: 15%;
+    background-color: #f8f5f4;
+}
+
 
 h1 {
     color: #2187c7;
@@ -34,10 +47,42 @@ h1 {
     text-align: center;
 }
 
-.web-development {
-    column-count: 3;
-    margin: 3.3rem 0;
+ul {
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  li {
+  
+   margin: 45px;
+   padding: 32px;
+  }
+
+
+
+/* Proje başlığı (adı) stilini değiştirme örneği */
+#details-container-project1 ul li:nth-child(1) {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f8f5f4; /* Örnek renk */
+
 }
+
+/* Proje detayı stilini değiştirme örneği */
+#details-container-project1 ul li:nth-child(2) {
+    font-size: 24px;
+    color: #333; /* Örnek renk */
+}
+
+/* Proje bağlantısı stilini değiştirme örneği */
+#details-container-project1 ul li:nth-child(3) {
+    font-size: 18px;
+    color: #0077B6; /* Örnek renk */
+    text-decoration: none; /* Bağlantıyı altı çizili yapma */
+}
+
 
 
 /*

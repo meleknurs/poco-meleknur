@@ -1,64 +1,59 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Montserrat&family=Pixelify+Sans&family=Roboto:wght@500;700&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Montserrat&family=Pixelify+Sans&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="projects.css">
 </head>
-<body>
-</head>
-<body>
-    <main>
-        <h1>Projects</h1>
-        <section class="web-development">
-            <article class="box box1">
-               
-               <h2>My First Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique sit amet nisl eu malesuada.</p>
-                <a href="https://meriva.netlify.app/" target="_blank">Click</a>
-            </article>
-            <article class="box box2">
-               
-                <h2>My First Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique sit amet nisl eu malesuada.</p>
-                <a href="https://meriva.netlify.app/" target="_blank">Click</a>
-            </article>
-            <article class="box box3">
-                
-                <h2>My First Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique sit amet nisl eu malesuada.</p>
-                <a href="https://meriva.netlify.app/" target="_blank">Click</a>
-            </article>
-            <article class="box box4">
-                
-                <h2>My First Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique sit amet nisl eu malesuada.</p>
-                <a href="https://meriva.netlify.app/" target="_blank">Click</a>
-            </article>
-            <article class="box box5">
-                
-                <h2>My First Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique sit amet nisl eu malesuada.</p>
-                <a href="https://meriva.netlify.app/" target="_blank">Click</a>
-            </article>
-            <article class="box box6">
-                
-                <h2>My First Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique sit amet nisl eu malesuada.</p>
-                <a href="https://meriva.netlify.app/" target="_blank">Click</a>
-            </article>
-        </section>
 
-        <section></section>
-        <section></section>
+<body>
+    <h1>Projects</h1>
+
+    <main>
+        <article id="project1" class="box box1" onmouseover="giveDetails('project1')"
+            onmouseleave="giveDetails('project1')">
+            <section class="content-container">
+                <img src="/images/first-portfoliom.png" alt="">
+                <aside class="details-container" id="details-container-project1"></aside>
+            </section>
+        </article>
+        <article id="project2" class="box box2" onmouseover="giveDetails('project2')"
+            onmouseleave="giveDetails('project2')">
+            <section class="content-container">
+                <img src="" alt="">
+                <aside class="details-container" id="details-container-project2"></aside>
+            </section>
+        </article>
+
+        <article id="project3" class="box box3">
+            <h2>My First Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique sit amet nisl eu malesuada.</p>
+            <a href="https://meriva.netlify.app/" target="_blank">Click</a>
+        </article>
+        <article id="project4" class="box box4">
+            <h2>My First Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique sit amet nisl eu malesuada.</p>
+            <a href="https://meriva.netlify.app/" target="_blank">Click</a>
+        </article>
+        <article id="project5" class="box box5">
+            <h2>My First Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique sit amet nisl eu malesuada.</p>
+            <a href="https://meriva.netlify.app/" target="_blank">Click</a>
+        </article>
+        <article id="project6" class="box box6">
+            <h2>My First Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique sit amet nisl eu malesuada.</p>
+            <a href="https://meriva.netlify.app/" target="_blank">Click</a>
+        </article>
     </main>
-    
+
+    <script src="projects.js"></script>
 </body>
 </html>
-
-
-
