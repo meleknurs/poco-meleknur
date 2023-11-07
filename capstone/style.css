@@ -175,10 +175,18 @@ section.bottom-container {
   text-align: right;
 }
 
-.bottom-container-img {
+#pixel-me{
   height: 180px;
   width: auto;
+
 }
+
+.bottom-container{
+  display: flex;
+  justify-content: flex-end;
+  
+  }
+  
 
 ul {
   list-style: none;
@@ -191,10 +199,7 @@ ul li {
 }
 
 #hello-text {
-    /*position: absolute; 
-    */
-    top: 20px;
-    right: 60px;
+ height: 65px;
  
 }
 
@@ -271,7 +276,8 @@ h1{
   font-size: 1.8rem;
 }
 
-.bottom-container-img {
+.bottom
+*pixel-me {
   height: 160px;
   width: auto;
 }
