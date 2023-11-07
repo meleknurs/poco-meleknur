@@ -113,6 +113,7 @@ ul.navbar {
 p {
   line-height: 2;
   font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
 }
 
 hr {
@@ -218,6 +219,9 @@ footer {
     width: 100%;
   }
 
+  p {
+    font-size: 1rem;
+  }
   .parent {
     grid-template-columns: 1fr;
     width: 90%;
@@ -261,7 +265,9 @@ footer {
   .mountain {
     width: 100%;
   }
-
+  p {
+    font-size: 1.1rem;
+  }
   .parent {
     grid-template-columns: 1fr 1fr;
     width: 100%;
@@ -269,11 +275,12 @@ footer {
   }
 
   .parent img {
-    width: 65%;
     margin: auto;
     padding-top: 45px;
   }
-
+  .parent p {
+    padding-right: 20px;
+  }
   .intro {
     width: 80%;
     margin: auto;
@@ -282,21 +289,20 @@ footer {
 
 @media (min-width: 1025px) {
   .parent {
-    margin: 5px auto 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(1, 1fr);
-    width: 50%;
-    row-gap: 2rem;
-    text-align: left;
-  }
-
-  .parent img {
-    width: 65%;
+    grid-gap: 2rem;
+    min-width: 65%;
+    max-width: 70%;
+    margin: 0 auto;
   }
 
   .intro {
-    width: 45%;
+    max-width: 100%;
+  }
+
+  .parent img {
+    max-width: 100%;
     margin: auto;
   }
 }

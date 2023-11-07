@@ -7,11 +7,11 @@ const codingImage = document.getElementById("coding-image");
 const uxImage = document.getElementById("ux-image"); 
 
 uxImage.addEventListener("mouseover", function () {
-    uxImage.src =  "/images/ux-image-fire.png"
+    uxImage.src =  "/images/ux-image-fire.png";
 });
   
   uxImage.addEventListener("mouseout", function () {
-    uxImage.src = "/images/ux-image.jpg" 
+    uxImage.src = "/images/ux-image.jpg";
 });
 
 testImage.addEventListener("mouseover", function () {
@@ -23,7 +23,7 @@ testImage.addEventListener("mouseout", function () {
 });
 
 codingImage.addEventListener("mouseover", function () {
-    codingImage.src = "/images/code-image-fire.png"
+    codingImage.src = "/images/code-image-fire.png";
 });
   
 codingImage.addEventListener("mouseout", function () {
