@@ -11,7 +11,7 @@ hoverArea.addEventListener('mouseout', function () {
     mountainImage.src = '/images/mountain-default.png';
 });
 
-/*
+
 pixelMeImage.addEventListener('click', function(){
     if (helloTextImage.style.display === 'none') {
         helloTextImage.style.display = 'block';
@@ -19,4 +19,4 @@ pixelMeImage.addEventListener('click', function(){
         helloTextImage.style.display = 'none';
     }
 });
-*/
+
